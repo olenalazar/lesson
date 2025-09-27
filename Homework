@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Привіт, GitHub!</title>
+    <style>
+      body {
+        background-color: #f0f8ff;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        color: #333;
+      }
+      h1 {
+        font-size: 3em;
+        color: #007acc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Привіт, GitHub!</h1>
+    <p>Це мій перший додаток 💙</p>
+  </body>
+</html>
