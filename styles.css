@@ -1,0 +1,18 @@
+
+      body {
+        background-color: #f0f8ff;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        color: #333;
+      }
+      
+      .title {
+        font-size: 3em;
+        color: #007acc;
+      }
+      
+      .deskription {
+        font-size: 1.5em;
+        color: #555;
+      }
