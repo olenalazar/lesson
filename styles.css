@@ -1,0 +1,127 @@
+/* Скидаємо стандартні відступи */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🟩 Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-bottom: 3px solid #f7eeee;
+} 
+
+
+.logo {
+  color: #1c9220;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #205b22;
+  border-bottom: 3px solid #2c7f2e;
+
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #16971a;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #15961b;
+}
+
+/* 🟩 Hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text .welcome {
+  color: #454745;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #1e5020;
+}
+
+.hero-text .desc {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.shop-btn {
+  padding: 15px 35px;
+  background-color: #2c7f2e;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background-color: #45a049;
+}
+
+/* 🟩 Hero images */
+.hero-image {
+display: block;
+text-align: center;
+}
+.main-planet {
+  width: 600px;
+  height: auto;
+}
