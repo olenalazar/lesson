@@ -164,7 +164,7 @@ html,body{
   object-fit:cover;
 }
 .image-container {
-  position: relative; /* потрібно, щоб елементи всередині позиціонувалися поверх зображення */
+  position: relative; 
   display: inline-block;
 }
 
@@ -197,7 +197,7 @@ html,body{
   font-size:13px;
 }
 
-/* Pagination */
+
 .pager{
   margin-top:22px;
   display:flex;
@@ -300,4 +300,5 @@ html,body{
 .card:hover .icons {
   opacity: 1;
 }
+
 
